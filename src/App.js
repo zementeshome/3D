@@ -30,14 +30,14 @@ const SpinningMesh = ({position, args, color, speed}) => {
   );
 }
 
-const Plane = () => {
-  return (
-    <mesh position={[0, 0, 0]} rotation={[-Math.PI / 2, 0, 0]}>
-    <planeBufferGeometry attach="geometry" args={[100, 100]}/>
-    <meshLambertMaterial attach="material" color="white"/>
-  </mesh>
-  );
-}
+// const Plane = () => {
+//   return (
+//     <mesh position={[0, 0, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+//     <planeBufferGeometry attach="geometry" args={[100, 100]}/>
+//     <meshLambertMaterial attach="material" color="white"/>
+//   </mesh>
+//   );
+// }
 
 function App() {
   return (
@@ -71,7 +71,7 @@ function App() {
         <SpinningMesh position={[0, 1, 0]} args={[3, 2, 1]} color='lightblue' speed={2}/>
         <SpinningMesh position={[-2, 1, -5]} color="pink" speed={6}/>
         <SpinningMesh position={[5, 1, -2]}  color="pink" speed={6}/>
-        
+        <SpinningMesh position={[0, 1, 0]} args={[3, 2, 1]} color='lightblue' speed={2}/>
         {/* <SpinningMesh position={[-5, 2, 0]} args={[3, 2, 1]} color='lightblue' speed={2}/>
         <SpinningMesh position={[3, 2, -10]} color="pink" speed={6}/>
         <SpinningMesh position={[10, 2, 3]}  color="pink" speed={6}/> */}
