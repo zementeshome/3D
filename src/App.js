@@ -71,9 +71,10 @@ function App() {
         <SpinningMesh position={[0, 1, 0]} args={[3, 2, 1]} color='lightblue' speed={2}/>
         <SpinningMesh position={[-2, 1, -5]} color="pink" speed={6}/>
         <SpinningMesh position={[5, 1, -2]}  color="pink" speed={6}/>
-        <SpinningMesh position={[0, 1, 0]} args={[3, 2, 1]} color='lightblue' speed={2}/>
-        {/* <SpinningMesh position={[-5, 2, 0]} args={[3, 2, 1]} color='lightblue' speed={2}/>
-        <SpinningMesh position={[3, 2, -10]} color="pink" speed={6}/>
+        {/* <SpinningMesh position={[0, 1, 0]} args={[3, 2, 1]} color='lightblue' speed={2}/> */}
+        <SpinningMesh position={[4, 3, 3]} args={[3, 2, 1]} color='lightgreen' speed={2}/>
+        <SpinningMesh position={[-6, 2, 2]} args={[3, 2, 1]} color='lightgreen' speed={2}/>
+        {/* <SpinningMesh position={[3, 2, -10]} color="pink" speed={6}/>
         <SpinningMesh position={[10, 2, 3]}  color="pink" speed={6}/> */}
         {/* <Box>
           <meshStandardMaterial attach='material'/>
